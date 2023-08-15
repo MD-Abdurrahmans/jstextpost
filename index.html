@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook post</title>
+    
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/5d6bdd41be.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    
+<header>
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+          </div>
+          <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img src="./images/Firefly stream of consciousness in a vast landscape, black and white 28173.jpg" />
+              </div>
+            </label>
+            <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+              <li>
+                <a class="justify-between">
+                  Profile
+                  <span class="badge">New</span>
+                </a>
+              </li>
+              <li><a>Settings</a></li>
+              <li><a>Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</header>
+
+
+
+<main class="container mx-auto mt-24">
+    
+<section >
+
+   
+  <div class="flex justify-between">
+
+    <div class="flex justify-center items-center">
+        
+        <img class="w-20 h-20 rounded-full"  src="./images/Firefly stream of consciousness in a vast landscape, black and white 28173.jpg" alt="">
+    
+        <div class="pl-5">
+            <h1 class="text-3xl" id="profileText">Deafult name</h1>
+        </div>
+    
+        </div>
+    
+    
+    
+        <div>
+    
+            <i class="fa-solid fa-ellipsis-vertical text-3xl"></i>
+        </div>
+        
+  </div>
+
+
+
+  <div class="mt-8">
+
+
+      <h1 class="text-3xl">THe history of BigBANG!</h1>
+
+      <div  id="hello">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iusto soluta neque incidunt. Aperiam velit assumenda, est dolorem cumque sed, qui similique, libero nobis quam accusamus voluptatibus incidunt impedit veritatis?</p>
+        <p>Minus culpa, facere deleniti esse, delectus quo eaque labore aspernatur saepe nam adipisci, pariatur accusamus incidunt quis sed! Reiciendis nesciunt omnis iusto fugit nulla voluptatibus ea veniam eaque tempore dignissimos?</p>
+        <p>Unde mollitia explicabo veniam repudiandae. Dicta, necessitatibus. Adipisci earum distinctio quod voluptas ea nemo, vitae eveniet asperiores natus delectus, dolore at? Inventore nam minima esse cumque quam necessitatibus libero quidem?</p>
+
+      </div>
+
+
+      <div>
+       <h1 class="text-2xl text-black font-semibold">Write post</h1>
+        <textarea id="input_id" class="border bg-slate-400"  id="" cols="70" rows="5"></textarea><br>
+        <button id="post_btn" class="btn bg-indigo-950 text-white">POST</button>
+      </div>
+  </div>
+    
+
+
+  <div class="mt-6">
+      <h1 class="text-2xl text-amber-500">input profile name</h1>
+    <input id="profileName" type="text" class="bg-emerald-800 text-white p-2 rounded-3xl">
+    <button id="profile_btn" class="btn bg-cyan-600 text-white">Add</button>
+</div>
+
+
+<div class="mt-16">
+
+    <h1 class="text-red-500 text-2xl">Delete</h1>
+
+    <input type="text" id="delete_input" placeholder="please enter delete" class="bg-red-700 text-white p-2">
+    <button class="btn btn-warning" disabled id="delete_btn">Delete</button>
+
+</div>
+
+
+    </section>
+    
+
+    <section class="mt-20">
+
+        <h1 class="text-3xl text-purple-900">EVENT BUBLING LIST ADD AND REMOVE</h1>
+
+         <ul id="list-item" >
+
+             <li class="item">Lorem, ipsum dolor.</li>
+             <li class="item">Voluptatum, ducimus a.</li>
+             <li class="item">Veritatis, unde architecto!</li>
+             <li class="item">Fugiat, quaerat esse.</li>
+             <li class="item">Dolore, ab facere.</li>
+         </ul>
+
+
+        <button id="add_item" class="btn bg-fuchsia-600 text-white">Add list item</button>
+
+    </section>
+</main>
+
+
+    <!-- end  -->
+    <script src="./script.js"></script>
+</body>
+</html>
